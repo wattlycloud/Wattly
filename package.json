@@ -1,8 +1,8 @@
 {
-  "name": "wattly-bill-audit",
+  "name": "wattly-audit-api",
   "version": "1.0.0",
   "private": true,
-  "description": "Wattly Bill Audit API – parse bills, compute savings, and export a one-page PDF proposal.",
+  "description": "Upload a utility bill PDF and get a detailed audit + savings math as JSON.",
   "main": "server.js",
   "type": "commonjs",
   "engines": { "node": ">=18" },
@@ -12,7 +12,6 @@
   "dependencies": {
     "express": "^4.19.2",
     "express-fileupload": "^1.5.1",
-    "pdf-parse": "^1.1.1",
-    "pdfkit": "^0.14.0"
+    "pdf-parse": "^1.1.1"
   }
 }
