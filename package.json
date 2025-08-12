@@ -2,7 +2,7 @@
   "name": "wattly-bill-audit",
   "version": "1.0.0",
   "private": true,
-  "description": "Wattly Bill Audit API - parse utility bills and generate proposals",
+  "description": "Wattly Bill Audit API - parse PDF bills, compute savings, output JSON/PDF.",
   "main": "server.js",
   "type": "commonjs",
   "engines": { "node": ">=18" },
